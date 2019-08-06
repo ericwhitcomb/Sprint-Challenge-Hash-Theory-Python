@@ -25,7 +25,6 @@ def get_indices_of_item_weights(weights, length, limit):
         else: # else insert in ht
             hash_table_insert(ht, weights[i], i)
 
-
     return None
 
 
